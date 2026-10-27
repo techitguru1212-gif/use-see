@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Animal World</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <h1>🐾 Animal World</h1>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#animals">Animals</a></li>
+            <li><a href="#facts">Facts</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="home" class="hero">
+    <h2>Discover Amazing Animals</h2>
+    <p>Explore wildlife from around the world.</p>
+    <button onclick="showMessage()">Learn More</button>
+</section>
+
+<section class="search-section">
+    <h2>Search Animals</h2>
+    <input type="text" id="searchInput" placeholder="Search animal...">
+</section>
+
+<section id="animals">
+    <h2 class="title">Popular Animals</h2>
+
+    <div class="animal-container">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1546182990-dffeafbe841d" alt="">
+            <h3>Lion</h3>
+            <p>Known as the King of the Jungle.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1517849845537-4d257902454a" alt="">
+            <h3>Elephant</h3>
+            <p>The largest land animal on Earth.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1501706362039-c6e08f51cd17" alt="">
+            <h3>Tiger</h3>
+            <p>Powerful predator with unique stripes.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1549366021-9f761d450615" alt="">
+            <h3>Giraffe</h3>
+            <p>The tallest animal in the world.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1484406566174-9da000fda645" alt="">
+            <h3>Zebra</h3>
+            <p>Every zebra has unique stripes.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1474511320723-9a56873867b5" alt="">
+            <h3>Wolf</h3>
+            <p>Lives and hunts in packs.</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="facts">
+    <h2 class="title">Animal Facts</h2>
+
+    <div class="facts-container">
+        <div class="fact-box">
+            <h3>🐘 Elephant</h3>
+            <p>Elephants can recognize themselves in mirrors.</p>
+        </div>
+
+        <div class="fact-box">
+            <h3>🦒 Giraffe</h3>
+            <p>Giraffes only need 5 to 30 minutes of sleep daily.</p>
+        </div>
+
+        <div class="fact-box">
+            <h3>🦁 Lion</h3>
+            <p>A lion's roar can be heard from 8 km away.</p>
+        </div>
+    </div>
+</section>
+
+<section id="gallery">
+    <h2 class="title">Animal Gallery</h2>
+
+    <div class="gallery">
+        <img src="https://source.unsplash.com/400x300/?lion">
+        <img src="https://source.unsplash.com/400x300/?tiger">
+        <img src="https://source.unsplash.com/400x300/?elephant">
+        <img src="https://source.unsplash.com/400x300/?giraffe">
+        <img src="https://source.unsplash.com/400x300/?wolf">
+        <img src="https://source.unsplash.com/400x300/?zebra">
+    </div>
+</section>
+
+<section id="contact">
+    <h2 class="title">Contact Us</h2>
+
+    <form>
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Your Email">
+        <textarea placeholder="Message"></textarea>
+        <button type="submit">Send</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 Animal World | Created with HTML CSS JavaScript</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
